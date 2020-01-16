@@ -19,8 +19,26 @@ body{
 }
 h1{
 	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	border: 5px solid white;
+	
+
 }
 
-#message{
+/*#message{
 	color:white;
+	text-align: center;
+}*/
+#stripe{
+	background: white;
+	height=30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	background: blue;
+	
 }
