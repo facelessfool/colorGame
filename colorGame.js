@@ -54,14 +54,15 @@ resetButton.addEventListener("click",function(){
 	colors=generateRandomColors(numFlag);
 	pickedColor=picked();
 	colorDisplay.textContent=pickedColor;
-	h1.style.background=randomColor();
+	messageDisplay.textContent=" ";
+	this.textContent="New colors";
 
 	for(var i=0;i<squares.length;i++){
 		squares[i].style.background=colors[i];
 	}
 })
 
-h1.style.background=randomColor();
+h1.style.background="steelblue";
 
 
 colorDisplay.textContent=pickedColor;
@@ -86,7 +87,7 @@ for(var i=0;i<squares.length;i++){
 			resetButton.textContent="Play Again?";
 		}
 		else{
-			messageDisplay.textContent="sorry, try again ";
+			messageDisplay.textContent="try again ";
 			this.style.background= "rgb(35,35,35)"
 			
 
